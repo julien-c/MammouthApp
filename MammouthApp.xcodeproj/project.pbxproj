@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79634A5814C21C9300A22AAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79634A5714C21C9300A22AAE /* Cocoa.framework */; };
+		79634A6214C21C9300A22AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79634A6014C21C9300A22AAE /* InfoPlist.strings */; };
+		79634A6414C21C9300A22AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79634A6314C21C9300A22AAE /* main.m */; };
+		79634A6814C21C9300A22AAE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79634A6614C21C9300A22AAE /* Credits.rtf */; };
+		79634A6B14C21C9300A22AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79634A6A14C21C9300A22AAE /* AppDelegate.m */; };
+		79634A6E14C21C9300A22AAE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79634A6C14C21C9300A22AAE /* MainMenu.xib */; };
+		79634A7614C21C9300A22AAE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79634A7514C21C9300A22AAE /* SenTestingKit.framework */; };
+		79634A7714C21C9300A22AAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79634A5714C21C9300A22AAE /* Cocoa.framework */; };
+		79634A7F14C21C9300A22AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79634A7D14C21C9300A22AAE /* InfoPlist.strings */; };
+		79634A8214C21C9300A22AAE /* MammouthAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79634A8114C21C9300A22AAE /* MammouthAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79634A7814C21C9300A22AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79634A4A14C21C9300A22AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79634A5214C21C9300A22AAE;
+			remoteInfo = MammouthApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79634A5314C21C9300A22AAE /* MammouthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MammouthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79634A5714C21C9300A22AAE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79634A5A14C21C9300A22AAE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79634A5B14C21C9300A22AAE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79634A5C14C21C9300A22AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79634A5F14C21C9300A22AAE /* MammouthApp-Info.plist */ = {isa = PBXFileReference; path = "MammouthApp-Info.plist"; sourceTree = "<group>"; };
+		79634A6114C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79634A6314C21C9300A22AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79634A6514C21C9300A22AAE /* MammouthApp-Prefix.pch */ = {isa = PBXFileReference; path = "MammouthApp-Prefix.pch"; sourceTree = "<group>"; };
+		79634A6714C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		79634A6914C21C9300A22AAE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		79634A6A14C21C9300A22AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79634A6D14C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79634A7414C21C9300A22AAE /* MammouthAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MammouthAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79634A7514C21C9300A22AAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79634A7C14C21C9300A22AAE /* MammouthAppTests-Info.plist */ = {isa = PBXFileReference; path = "MammouthAppTests-Info.plist"; sourceTree = "<group>"; };
+		79634A7E14C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79634A8014C21C9300A22AAE /* MammouthAppTests.h */ = {isa = PBXFileReference; path = MammouthAppTests.h; sourceTree = "<group>"; };
+		79634A8114C21C9300A22AAE /* MammouthAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MammouthAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79634A5014C21C9300A22AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A5814C21C9300A22AAE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79634A7014C21C9300A22AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A7614C21C9300A22AAE /* SenTestingKit.framework in Frameworks */,
+				79634A7714C21C9300A22AAE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79634A4814C21C9300A22AAE = {
+			isa = PBXGroup;
+			children = (
+				79634A5D14C21C9300A22AAE /* MammouthApp */,
+				79634A7A14C21C9300A22AAE /* MammouthAppTests */,
+				79634A5614C21C9300A22AAE /* Frameworks */,
+				79634A5414C21C9300A22AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79634A5414C21C9300A22AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79634A5314C21C9300A22AAE /* MammouthApp.app */,
+				79634A7414C21C9300A22AAE /* MammouthAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79634A5614C21C9300A22AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79634A5714C21C9300A22AAE /* Cocoa.framework */,
+				79634A7514C21C9300A22AAE /* SenTestingKit.framework */,
+				79634A5914C21C9300A22AAE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79634A5914C21C9300A22AAE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79634A5A14C21C9300A22AAE /* AppKit.framework */,
+				79634A5B14C21C9300A22AAE /* CoreData.framework */,
+				79634A5C14C21C9300A22AAE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79634A5D14C21C9300A22AAE /* MammouthApp */ = {
+			isa = PBXGroup;
+			children = (
+				79634A6914C21C9300A22AAE /* AppDelegate.h */,
+				79634A6A14C21C9300A22AAE /* AppDelegate.m */,
+				79634A6C14C21C9300A22AAE /* MainMenu.xib */,
+				79634A5E14C21C9300A22AAE /* Supporting Files */,
+			);
+			path = MammouthApp;
+			sourceTree = "<group>";
+		};
+		79634A5E14C21C9300A22AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79634A5F14C21C9300A22AAE /* MammouthApp-Info.plist */,
+				79634A6014C21C9300A22AAE /* InfoPlist.strings */,
+				79634A6314C21C9300A22AAE /* main.m */,
+				79634A6514C21C9300A22AAE /* MammouthApp-Prefix.pch */,
+				79634A6614C21C9300A22AAE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79634A7A14C21C9300A22AAE /* MammouthAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				79634A8014C21C9300A22AAE /* MammouthAppTests.h */,
+				79634A8114C21C9300A22AAE /* MammouthAppTests.m */,
+				79634A7B14C21C9300A22AAE /* Supporting Files */,
+			);
+			path = MammouthAppTests;
+			sourceTree = "<group>";
+		};
+		79634A7B14C21C9300A22AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79634A7C14C21C9300A22AAE /* MammouthAppTests-Info.plist */,
+				79634A7D14C21C9300A22AAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79634A5214C21C9300A22AAE /* MammouthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79634A8514C21C9300A22AAE /* Build configuration list for PBXNativeTarget "MammouthApp" */;
+			buildPhases = (
+				79634A4F14C21C9300A22AAE /* Sources */,
+				79634A5014C21C9300A22AAE /* Frameworks */,
+				79634A5114C21C9300A22AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MammouthApp;
+			productName = MammouthApp;
+			productReference = 79634A5314C21C9300A22AAE /* MammouthApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79634A7314C21C9300A22AAE /* MammouthAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79634A8814C21C9300A22AAE /* Build configuration list for PBXNativeTarget "MammouthAppTests" */;
+			buildPhases = (
+				79634A6F14C21C9300A22AAE /* Sources */,
+				79634A7014C21C9300A22AAE /* Frameworks */,
+				79634A7114C21C9300A22AAE /* Resources */,
+				79634A7214C21C9300A22AAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79634A7914C21C9300A22AAE /* PBXTargetDependency */,
+			);
+			name = MammouthAppTests;
+			productName = MammouthAppTests;
+			productReference = 79634A7414C21C9300A22AAE /* MammouthAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79634A4A14C21C9300A22AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 79634A4D14C21C9300A22AAE /* Build configuration list for PBXProject "MammouthApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79634A4814C21C9300A22AAE;
+			productRefGroup = 79634A5414C21C9300A22AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79634A5214C21C9300A22AAE /* MammouthApp */,
+				79634A7314C21C9300A22AAE /* MammouthAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79634A5114C21C9300A22AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A6214C21C9300A22AAE /* InfoPlist.strings in Resources */,
+				79634A6814C21C9300A22AAE /* Credits.rtf in Resources */,
+				79634A6E14C21C9300A22AAE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79634A7114C21C9300A22AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A7F14C21C9300A22AAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79634A7214C21C9300A22AAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79634A4F14C21C9300A22AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A6414C21C9300A22AAE /* main.m in Sources */,
+				79634A6B14C21C9300A22AAE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79634A6F14C21C9300A22AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A8214C21C9300A22AAE /* MammouthAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79634A7914C21C9300A22AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79634A5214C21C9300A22AAE /* MammouthApp */;
+			targetProxy = 79634A7814C21C9300A22AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79634A6014C21C9300A22AAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79634A6114C21C9300A22AAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79634A6614C21C9300A22AAE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79634A6714C21C9300A22AAE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		79634A6C14C21C9300A22AAE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79634A6D14C21C9300A22AAE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		79634A7D14C21C9300A22AAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79634A7E14C21C9300A22AAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79634A8314C21C9300A22AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79634A8414C21C9300A22AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79634A8614C21C9300A22AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MammouthApp/MammouthApp-Prefix.pch";
+				INFOPLIST_FILE = "MammouthApp/MammouthApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79634A8714C21C9300A22AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MammouthApp/MammouthApp-Prefix.pch";
+				INFOPLIST_FILE = "MammouthApp/MammouthApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79634A8914C21C9300A22AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MammouthApp.app/Contents/MacOS/MammouthApp";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MammouthApp/MammouthApp-Prefix.pch";
+				INFOPLIST_FILE = "MammouthAppTests/MammouthAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79634A8A14C21C9300A22AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MammouthApp.app/Contents/MacOS/MammouthApp";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MammouthApp/MammouthApp-Prefix.pch";
+				INFOPLIST_FILE = "MammouthAppTests/MammouthAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79634A4D14C21C9300A22AAE /* Build configuration list for PBXProject "MammouthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79634A8314C21C9300A22AAE /* Debug */,
+				79634A8414C21C9300A22AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79634A8514C21C9300A22AAE /* Build configuration list for PBXNativeTarget "MammouthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79634A8614C21C9300A22AAE /* Debug */,
+				79634A8714C21C9300A22AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79634A8814C21C9300A22AAE /* Build configuration list for PBXNativeTarget "MammouthAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79634A8914C21C9300A22AAE /* Debug */,
+				79634A8A14C21C9300A22AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79634A4A14C21C9300A22AAE /* Project object */;
+}
