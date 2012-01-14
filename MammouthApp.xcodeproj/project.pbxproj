@@ -35,19 +35,19 @@
 		79634A5A14C21C9300A22AAE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		79634A5B14C21C9300A22AAE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		79634A5C14C21C9300A22AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		79634A5F14C21C9300A22AAE /* MammouthApp-Info.plist */ = {isa = PBXFileReference; path = "MammouthApp-Info.plist"; sourceTree = "<group>"; };
+		79634A5F14C21C9300A22AAE /* MammouthApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MammouthApp-Info.plist"; sourceTree = "<group>"; };
 		79634A6114C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79634A6314C21C9300A22AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79634A6514C21C9300A22AAE /* MammouthApp-Prefix.pch */ = {isa = PBXFileReference; path = "MammouthApp-Prefix.pch"; sourceTree = "<group>"; };
+		79634A6514C21C9300A22AAE /* MammouthApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MammouthApp-Prefix.pch"; sourceTree = "<group>"; };
 		79634A6714C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		79634A6914C21C9300A22AAE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		79634A6914C21C9300A22AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79634A6A14C21C9300A22AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79634A6D14C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		79634A7414C21C9300A22AAE /* MammouthAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MammouthAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79634A7514C21C9300A22AAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		79634A7C14C21C9300A22AAE /* MammouthAppTests-Info.plist */ = {isa = PBXFileReference; path = "MammouthAppTests-Info.plist"; sourceTree = "<group>"; };
+		79634A7C14C21C9300A22AAE /* MammouthAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MammouthAppTests-Info.plist"; sourceTree = "<group>"; };
 		79634A7E14C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		79634A8014C21C9300A22AAE /* MammouthAppTests.h */ = {isa = PBXFileReference; path = MammouthAppTests.h; sourceTree = "<group>"; };
+		79634A8014C21C9300A22AAE /* MammouthAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MammouthAppTests.h; sourceTree = "<group>"; };
 		79634A8114C21C9300A22AAE /* MammouthAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MammouthAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
