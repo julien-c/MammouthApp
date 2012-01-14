@@ -17,6 +17,8 @@
 		79634A7714C21C9300A22AAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79634A5714C21C9300A22AAE /* Cocoa.framework */; };
 		79634A7F14C21C9300A22AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79634A7D14C21C9300A22AAE /* InfoPlist.strings */; };
 		79634A8214C21C9300A22AAE /* MammouthAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79634A8114C21C9300A22AAE /* MammouthAppTests.m */; };
+		79634A8D14C2289300A22AAE /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 79634A8B14C2289300A22AAE /* facebook.png */; };
+		79634A8E14C2289300A22AAE /* gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 79634A8C14C2289300A22AAE /* gmail.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		79634A7E14C21C9300A22AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79634A8014C21C9300A22AAE /* MammouthAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MammouthAppTests.h; sourceTree = "<group>"; };
 		79634A8114C21C9300A22AAE /* MammouthAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MammouthAppTests.m; sourceTree = "<group>"; };
+		79634A8B14C2289300A22AAE /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		79634A8C14C2289300A22AAE /* gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmail.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 		79634A5E14C21C9300A22AAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79634A8B14C2289300A22AAE /* facebook.png */,
+				79634A8C14C2289300A22AAE /* gmail.png */,
 				79634A5F14C21C9300A22AAE /* MammouthApp-Info.plist */,
 				79634A6014C21C9300A22AAE /* InfoPlist.strings */,
 				79634A6314C21C9300A22AAE /* main.m */,
@@ -226,6 +232,8 @@
 				79634A6214C21C9300A22AAE /* InfoPlist.strings in Resources */,
 				79634A6814C21C9300A22AAE /* Credits.rtf in Resources */,
 				79634A6E14C21C9300A22AAE /* MainMenu.xib in Resources */,
+				79634A8D14C2289300A22AAE /* facebook.png in Resources */,
+				79634A8E14C2289300A22AAE /* gmail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +332,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -351,7 +359,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
