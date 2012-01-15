@@ -18,8 +18,8 @@
     
     NSBundle *bundle = [NSBundle mainBundle];
     
-    statusImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"gmail" ofType:@"png"]];
-    statusHighlightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"facebook" ofType:@"png"]];
+    statusImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"MammouthAppStatusBar" ofType:@"png"]];
+    statusHighlightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"MammouthAppStatusBar_alt" ofType:@"png"]];
     
     [statusItem setImage:statusImage];
     [statusItem setAlternateImage:statusHighlightImage];
