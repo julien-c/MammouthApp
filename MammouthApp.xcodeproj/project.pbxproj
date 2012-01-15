@@ -21,6 +21,8 @@
 		79634A9214C24C9C00A22AAE /* Elephant Trumpeting-SoundBible.com-1343370148.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79634A9014C24C9C00A22AAE /* Elephant Trumpeting-SoundBible.com-1343370148.wav */; };
 		79634AA414C3070D00A22AAE /* MammouthAppStatusBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 79634AA214C3070D00A22AAE /* MammouthAppStatusBar.png */; };
 		79634AA514C3070D00A22AAE /* MammouthAppStatusBar_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 79634AA314C3070D00A22AAE /* MammouthAppStatusBar_alt.png */; };
+		79634AA714C30A1100A22AAE /* MammouthApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79634AA614C30A1100A22AAE /* MammouthApp.icns */; };
+		79634AA914C30A7300A22AAE /* MammouthApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79634AA814C30A7200A22AAE /* MammouthApp.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		79634A9014C24C9C00A22AAE /* Elephant Trumpeting-SoundBible.com-1343370148.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Elephant Trumpeting-SoundBible.com-1343370148.wav"; path = "../Elephant Trumpeting-SoundBible.com-1343370148.wav"; sourceTree = "<group>"; };
 		79634AA214C3070D00A22AAE /* MammouthAppStatusBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MammouthAppStatusBar.png; sourceTree = "<group>"; };
 		79634AA314C3070D00A22AAE /* MammouthAppStatusBar_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MammouthAppStatusBar_alt.png; sourceTree = "<group>"; };
+		79634AA614C30A1100A22AAE /* MammouthApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MammouthApp.icns; sourceTree = "<group>"; };
+		79634AA814C30A7200A22AAE /* MammouthApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MammouthApp.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		79634A4814C21C9300A22AAE = {
 			isa = PBXGroup;
 			children = (
+				79634AA814C30A7200A22AAE /* MammouthApp.icns */,
 				79634A5D14C21C9300A22AAE /* MammouthApp */,
 				79634A7A14C21C9300A22AAE /* MammouthAppTests */,
 				79634A5614C21C9300A22AAE /* Frameworks */,
@@ -133,6 +138,7 @@
 		79634A5E14C21C9300A22AAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79634AA614C30A1100A22AAE /* MammouthApp.icns */,
 				79634AA214C3070D00A22AAE /* MammouthAppStatusBar.png */,
 				79634AA314C3070D00A22AAE /* MammouthAppStatusBar_alt.png */,
 				79634A8F14C24C9C00A22AAE /* Elephant-SoundBible.com-551032783.wav */,
@@ -242,6 +248,8 @@
 				79634A9214C24C9C00A22AAE /* Elephant Trumpeting-SoundBible.com-1343370148.wav in Resources */,
 				79634AA414C3070D00A22AAE /* MammouthAppStatusBar.png in Resources */,
 				79634AA514C3070D00A22AAE /* MammouthAppStatusBar_alt.png in Resources */,
+				79634AA714C30A1100A22AAE /* MammouthApp.icns in Resources */,
+				79634AA914C30A7300A22AAE /* MammouthApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
