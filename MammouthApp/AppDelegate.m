@@ -40,6 +40,17 @@
     
     NSLog(@"Is doing something");
     
+    int randomSound = arc4random() % 2;
+    
+    if (randomSound == 0) {
+        NSSound *sound = [NSSound soundNamed:@"Elephant-SoundBible.com-551032783"];
+        [sound play];
+    }
+    else if (randomSound == 1) {
+        NSSound *sound = [NSSound soundNamed:@"Elephant Trumpeting-SoundBible.com-1343370148"];
+        [sound play];
+    }
+    
 }
 
 @end
